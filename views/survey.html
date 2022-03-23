@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <style>
+        .sidebar{
+            position: fixed;
+            left: 0;
+            width: 250px;
+            height: 100%;
+        }
+        .content{
+            margin-left: 150px;
+            font-size: 18px;
+        }
+    </style>
+    <div class="sidebar">
+    <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="survey.html">Survey</a></li>
+    </ul>
+</div>
+<div class="content">
+    <h1>Fill out the survey!!</h1>
+    <fieldset>
+        <label>Name</label>
+        <input type="text"></input><br>
+        <label>Date of Birth</label>
+        <input type="date" name=""></input><br>
+        <label>How likely is it that you recommend this library to your friends?</label>
+        <input type="radio" name="mood" value="verylikely">Very Likely
+        <input type="radio" name="mood" value="somewhatlikely">Somewhat Likely
+        <input type="radio" name="mood" value="Notlikely">Not Likely<br>
+        <input type="submit" name="submit" value="submit">
+    </fieldset>
+</div>
+</body>
+</html>
